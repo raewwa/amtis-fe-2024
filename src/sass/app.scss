@@ -1,1 +1,181 @@
 // Продължи с твоя SCSS или обикновен CSS код тук.
+body{
+    background: #FBF4DF;
+
+}
+
+button
+{
+
+width: 180px;
+height: 40px;
+padding: var(--size-8) var(--size-16) var(--size-8) var(--size-16);
+gap: var(--size-4);
+border-radius: 32px 32px 32px 32px;
+opacity: 0px;
+border-color: #9B582E;
+background-color: #9B582E;
+}
+.section__container {
+    width: 1280px ;
+    height: 43px;
+    top: 32px;
+    left: 80px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 6rem 2rem;
+
+  }
+  .nav__container li
+  {
+  display: inline;
+  color: #9B582E;
+  }
+  .nav__container {
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .nav__logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+  }
+
+
+.link a {
+
+    font-size: 20px;
+    padding: 0 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-light);
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .nav__container {
+    width: 907px;
+    height: 26px;
+    gap: 32px;
+  }
+
+
+  .nav__logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+  }
+
+  .hero_container
+  {
+    align-content: center;
+    width: 896px;
+    height: 677px;
+    top: 75px;
+    left: 272px;
+    padding: 16px;
+    padding-left: 360px;
+    gap: 16px;
+    float: center;
+  }
+
+  .product_card
+  {
+    padding-left: 10px;
+    width: 260px;
+    height:557px;
+    padding: 20px 34px 0px 34px;
+    gap: 0px;
+    border-radius: 8px ;
+    opacity: 0px;
+    background-color: #FBF4DF;
+    border: 1px solid #9B582E
+
+  }
+  .productgrid
+  {
+    width: Hug (1,280px)px;
+    height: Hug (557px)px;
+    top: 784px;
+    left: 80px;
+    gap: 24px;
+    opacity: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+.chefbox
+{
+width: Hug (1000px)px;
+height: Hug (562px)px;
+top: 1419px;
+left: 151px;
+gap: 96px;
+opacity: 0px;
+display:grid;
+grid-template-columns: repeat (5,1fr);
+}
+.itemss
+{
+    width: 1360px;
+height: 2453px;
+top: 2075px;
+left: 40px;
+gap: 0px;
+border-radius: 32px 0px 0px 0px;
+opacity: 0px;
+background: #FBF4DF;
+align-items: center;
+
+}
+.item_card
+{
+    width: Fixed (1,280px)px;
+    height: Hug (498px)px;
+    padding: 64px 24px 64px 24px;
+    gap: 16px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #FBEED0;
+    background: #FEFCF6;
+
+}
+
+.media
+{
+    padding-top: 10px;
+padding-left: 350px;
+padding-right: 250px;
+width: Hug (750px)px;
+height: Hug (1,144px)px;
+top: 6566px;
+left: 345px;
+gap: 80px;
+opacity: 0px;
+background-color: #FEFCF6;
+}
+footer li{
+    display: inline;
+}
+.flinks
+{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.86px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+footer p{
+display: inline;
+font-family: Manrope;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: -0.011em;
+text-align: center;
+
+}
